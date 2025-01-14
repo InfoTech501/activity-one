@@ -27,7 +27,7 @@ public class television {
             Channel = newChannel;
             System.out.println("Channel changed to: " + Channel);
         } else {
-            System.out.println("Invalid channel. Please enter a number.");
+            System.out.println("Invalid channel. Please enter a number: ");
         }
     }
 
