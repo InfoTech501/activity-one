@@ -1,5 +1,5 @@
 // Jake Viado
-package com.rocs.sphere.application.model.televisionJake;
+package com.rocs.TelevisionJake.application.model.televisionJake;
 
 import java.util.Scanner;
 

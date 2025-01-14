@@ -1,6 +1,6 @@
 // Problem 3: Construct a Television class that can change channels, change volume and be turned on or off.
 // Jake Viado
-package com.rocs.sphere.application.model.televisionJake;
+package com.rocs.TelevisionJake.application.model.televisionJake;
 
 public class Television {
     private int channel;
