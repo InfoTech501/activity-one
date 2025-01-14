@@ -14,11 +14,11 @@ public class television {
 
     public void power() {
         tvOn = !tvOn;
-        System.out.println(tvOn ? "The TV is now ON." : "The TV is now OFF.");
+        System.out.println(tvOn ? "The TV is now ON." : "The TV is now turning OFF.");
     }
 
 
-    public boolean isOn() {
+    public boolean tvOn() {
         return tvOn;
     }
 
