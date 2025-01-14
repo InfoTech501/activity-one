@@ -1,4 +1,4 @@
-package PublicVehicleFares;
+package PublicVehicle_;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class Main {
         int distance;
 
         do {
-            System.out.println("Enter distance travelled:");
+            System.out.println("Enter your distance travelled:");
             while (!sc.hasNextInt()) {
                 System.out.println("Invalid input. Please enter a valid number for the distance:");
                 sc.next();
