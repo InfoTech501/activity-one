@@ -15,7 +15,7 @@ public class TVController {
 
         while (television.tvOn()) {
             television.displayStatus();
-            System.out.println("Remote control kunyare:");
+            System.out.println("Remote control kunyare hehe:");
             System.out.println("1. Change Channel");
             System.out.println("2. Increase Volume");
             System.out.println("3. Decrease Volume");
