@@ -57,14 +57,23 @@ public class Binary{
             return "0";
         }
 
-        // Convert decimal to hexadecimal
         while (decimal > 0) {
             int remainder = decimal % 16;
             if (remainder < 10) {
                 hexadecimal.insert(0, remainder);
-            } else {
-                hexadecimal.insert(0, (char) ('A' + (remainder - 10)));
-            }
+            } else if (remainder == 11){
+                StringBuilder insert = hexadecimal.insert(0, 'A');
+            } else if (remainder == 12){
+                StringBuilder insert = hexadecimal.insert(0, 'B');
+            } else if (remainder == 13){
+                StringBuilder insert = hexadecimal.insert(0, 'C');
+            } else if (remainder == 14){
+                StringBuilder insert = hexadecimal.insert(0, 'D');
+            } else if (remainder == 15){
+                StringBuilder insert = hexadecimal.insert(0, 'E');
+            } else if (remainder == 16) {
+                StringBuilder insert = hexadecimal.insert(0, 'F');
+            } else System.out.println("no hexadecimal value");
             decimal = decimal / 16;
         }
 
